@@ -9,9 +9,9 @@ private:
 	const long double G = -6.67408*pow(10.0, -11);
 	const double pi = 3.14159;
 public:
-	double velocity(double, double);
+	double velocity(double, double); //distace/time
 	double acceleration(double, double);
-	double F(double, double);
+	double F(double, double = 9.807);
 	double centripedalA(double, double);
 	double momentum(double, double);
 	double kineE(double, double);

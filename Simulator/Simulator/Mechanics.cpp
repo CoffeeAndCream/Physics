@@ -2,7 +2,8 @@
 #include <iostream>
 #include <math.h>
 
-double Mechanics::velocity(double d, double t){
+
+double Mechanics::velocity(double d, double t){	//distace / time
 	return d / t;
 }
 
@@ -10,7 +11,7 @@ double Mechanics::acceleration(double v, double t){
 	return v / t;
 }
 
-double Mechanics::F(double m, double a = 9.807){
+double Mechanics::F(double m, double a){
 	return m*a;
 }
 

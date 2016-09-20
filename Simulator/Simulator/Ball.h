@@ -3,15 +3,15 @@
 #ifndef BALL_H
 #define BALL_H
 
-class Ball{
+class Ball : public Mechanics{
 private:
 	double m_mass;
-	double radius;
+	double m_radius;
 public:
-	Ball(double);
-	void SetBall(double);
+	Ball(double, double = 1);
+	void SetBall(double, double);
 	double getMass(){ return m_mass; }
-	double getRadius(){ return radius; }
+	double getRadius(){ return m_radius; }
 };
 
 #endif
