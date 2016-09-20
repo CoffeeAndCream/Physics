@@ -1,0 +1,5 @@
+﻿  Model.cpp
+  Mechanics.cpp
+  Generating Code...
+Model.obj : error LNK2019: unresolved external symbol "double __cdecl F(double,double)" (?F@@YANNN@Z) referenced in function _main
+C:\Users\Sean\Desktop\Virtual\CCI\Mechanics\Debug\Mechanics.exe : fatal error LNK1120: 1 unresolved externals
